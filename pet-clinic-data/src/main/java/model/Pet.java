@@ -1,4 +1,4 @@
-package stefoni.springframework.petclinic.model;
+package model;
 
 import java.time.LocalDate;
 

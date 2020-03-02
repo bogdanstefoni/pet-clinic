@@ -1,4 +1,4 @@
-package stefoni.springframework.petclinic.model;
+package model;
 
 public class PetType {
 
