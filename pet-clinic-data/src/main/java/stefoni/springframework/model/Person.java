@@ -1,4 +1,4 @@
-package model;
+package stefoni.springframework.model;
 
 public class Person {
 
