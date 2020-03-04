@@ -2,15 +2,15 @@ package stefoni.springframework.model;
 
 public class Person extends BaseEntity {
 
-    private String firsName;
+    private String firstName;
     private String lastName;
 
-    public String getFirsName() {
-        return firsName;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public void setFirsName(String firsName) {
-        this.firsName = firsName;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
     public String getLastName() {

@@ -1,10 +1,12 @@
 package stefoni.springframework.services.map;
 
+import org.springframework.stereotype.Service;
 import stefoni.springframework.model.Vet;
 import stefoni.springframework.services.VetService;
 
 import java.util.Set;
 
+@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override

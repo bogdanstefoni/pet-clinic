@@ -1,10 +1,12 @@
 package stefoni.springframework.services.map;
 
+import org.springframework.stereotype.Service;
 import stefoni.springframework.model.Owner;
 import stefoni.springframework.services.OwnerService;
 
 import java.util.Set;
 
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
     @Override
