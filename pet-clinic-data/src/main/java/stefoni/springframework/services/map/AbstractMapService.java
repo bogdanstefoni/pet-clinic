@@ -27,6 +27,7 @@ public abstract class AbstractMapService<T, ID> {
     }
 
     void delete(T object){
+        //lambda funct 
         map.entrySet().removeIf(entry -> entry.getValue().equals(object));
     }
 }
