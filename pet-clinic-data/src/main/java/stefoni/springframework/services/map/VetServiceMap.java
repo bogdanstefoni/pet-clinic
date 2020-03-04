@@ -1,11 +1,11 @@
 package stefoni.springframework.services.map;
 
 import stefoni.springframework.model.Vet;
-import stefoni.springframework.services.CrudService;
+import stefoni.springframework.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
     public Set<Vet> findAll() {
